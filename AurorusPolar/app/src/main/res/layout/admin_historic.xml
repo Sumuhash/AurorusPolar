@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:background="@color/black">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="99dp"
+            android:layout_height="101dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="-28dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/logo2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Customer Name: "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="10dp"
+            android:hint="Name"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+        <ScrollView
+            android:layout_width="370dp"
+            android:layout_height="582dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp">
+
+            <LinearLayout
+                android:id="@+id/itemList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/information"
+                    android:layout_width="390dp"
+                    android:layout_height="match_parent"
+                    android:hint="Historic Accounts\n"
+                    android:textColor="@color/black" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="300dp"
+        android:text="Select your role:"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/adminButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:width="200dp"
+        android:text="Admin" />
+
+    <Button
+        android:id="@+id/employeeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:width="200dp"
+        android:text="Employee" />
+
+    <Button
+        android:id="@+id/userButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:width="200dp"
+        android:text="User" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="510dp"
+        android:text="First time on AurorusPolar?"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/createNewEmAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="560dp"
+        android:width="200dp"
+        android:text="Initialize App"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

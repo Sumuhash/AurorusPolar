@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:background="@color/black">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="99dp"
+            android:layout_height="101dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="152dp"
+            android:layout_marginBottom="-26dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/logo2" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="WELCOME"
+            android:textSize="70dp" />
+
+
+        <Button
+            android:id="@+id/user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="347dp"
+            android:width="200dp"
+            android:background="@color/black"
+            android:text="Make new User"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/auth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="397dp"
+            android:width="200dp"
+            android:background="@color/black"
+            android:text="Authenticate new employee"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/employee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="247dp"
+            android:width="200dp"
+            android:background="@color/black"
+            android:text="Make new Employee"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/stock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="197dp"
+            android:width="200dp"
+            android:background="@color/black"
+            android:text="Restock Inventory"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/logOff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="147dp"
+            android:width="200dp"
+            android:background="@color/black"
+            android:text="Log off"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="297dp"
+            android:width="200dp"
+            android:background="@color/black"
+            android:text="Make new account"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp"
+            android:layout_marginRight="144dp"
+            android:paddingBottom="10dp"
+            android:textSize="25dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>

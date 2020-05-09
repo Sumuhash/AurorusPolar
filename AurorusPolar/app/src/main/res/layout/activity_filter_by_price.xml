@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:background="@color/black">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="99dp"
+            android:layout_height="101dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="-28dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/logo2" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="64dp"
+            android:layout_marginBottom="7dp"
+            android:paddingBottom="10dp"
+            android:text="Hello User"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <ImageButton
+            android:id="@+id/imageView5"
+            android:layout_width="110dp"
+            android:layout_height="27dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="-20dp"
+            android:layout_marginBottom="18dp"
+            android:background="@null"
+            app:srcCompat="@drawable/shopping_cart" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1"
+
+        >
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="506dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="40dp">
+
+            <LinearLayout
+                android:id="@+id/priceFilter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/proceedToCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="21dp"
+            android:background="@color/black"
+            android:paddingHorizontal="20dp"
+            android:text="Proceed To Cart"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/filterByQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/filterByPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+    </RelativeLayout>
+</LinearLayout>

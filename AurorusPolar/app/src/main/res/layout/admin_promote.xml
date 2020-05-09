@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:background="@color/black">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="255dp"
+            android:layout_height="172dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="152dp"
+            android:layout_marginBottom="-26dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/logo2" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.1">
+
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:ems="10"
+            android:hint="Employee Id"
+            android:inputType="textPersonName"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+
+            android:text="ENTER THE ID OF THE EMPLOYEE YOU WOULD LIKE TO PROMOTE TO ADMIN."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/confirmation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:text="Submit" />
+
+    </RelativeLayout>
+</LinearLayout>
